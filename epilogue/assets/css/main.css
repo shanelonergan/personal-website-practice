@@ -1578,12 +1578,13 @@ body
 
 #nav {
 	height: 0;
+	width: 0;
 }
 
 #menuToggle
 {
   display: block;
-  position: relative;
+  position: fixed;
   top: 50px;
   left: 50px;
 
@@ -1691,7 +1692,7 @@ body
  */
 #menu
 {
-  position: absolute;
+  position: fixed;
   width: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
