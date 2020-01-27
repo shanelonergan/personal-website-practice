@@ -1722,3 +1722,9 @@ body
 {
   transform: none;
 }
+
+/* Custom CSS */
+
+.testimonials {
+	text-align: center;
+}
